@@ -121,8 +121,6 @@ class MobileScannerWebPlugin {
       }
 
       video.srcObject = _localStream;
-      video.load();
-      debugPrint('video src set');
 
       // TODO: fix flash light. See https://github.com/dart-lang/sdk/issues/48533
       // final track = _localStream?.getVideoTracks();
